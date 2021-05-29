@@ -1,6 +1,4 @@
-const e = require('express');
 const express = require('express');
-const mongoose = require('mongoose');
 
 const Dishes = require('../models/dishes');
 
