@@ -5,3 +5,4 @@ sudo service mongodb start //when installed it will started by default
 mongod --dbpath=data --bind_ip 127.0.0.1 //you can start the mongodb server by this command better
 sudo service mongodb stop
 mongo
+
