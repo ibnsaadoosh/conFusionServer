@@ -129,7 +129,8 @@ dishRouter.route('/:dishId/comments')
     {
         if(dish != null)
         {
-            dish.comments.push(req.body);
+            dish.comments = dish.comments.concat(req.body);
+            console.log(dish);
             dish.save()
             .then((dish) =>
             {
